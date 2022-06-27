@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  nginx-example:
+  - apiVersion: v1
+    appVersion: "1.15"
+    created: "2022-06-27T12:53:44.899544639Z"
+    description: A Helm chart for deployment of a simple nginx example app on Kubernetes
+    digest: a39c22bc29f2ca4ba1d4513428ed79cd850bc82cb45cb458f9148ece4289f93a
+    name: nginx-example
+    urls:
+    - https://github.com/joakimen/helm-repo-demo/releases/download/nginx-example-1.0.8/nginx-example-1.0.8.tgz
+    version: 1.0.8
+  whoami:
+  - annotations:
+      artifacthub.io/signKey: |
+        fingerprint: 9E57D2479D48B84463EF491F66D280CE667AD6C8
+        url: https://cowboysysop.github.io/charts/pgp-public-key-2022-02-19.asc
+      kubeVersion: '>=1.16'
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2022-06-27T12:53:45.014331876Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.16.0
+    description: Tiny Go webserver that prints os information and HTTP request to output
+    digest: e4e5e16424426f96db22a16319c84857580815a3cc0587101005f9c6d09dcdb0
+    home: https://github.com/containous/whoami
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: whoami
+    sources:
+    - https://github.com/containous/whoami
+    - https://github.com/cowboysysop/charts/tree/master/charts/whoami
+    urls:
+    - https://github.com/joakimen/helm-repo-demo/releases/download/whoami-2.5.5/whoami-2.5.5.tgz
+    version: 2.5.5
+generated: "2022-06-27T12:53:44.77432819Z"
