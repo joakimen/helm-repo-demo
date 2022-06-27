@@ -1,0 +1,4 @@
+ingress:
+  url: nginx-demo-alpha.k8s-alpha.oslo.kommune.no
+service:
+  port: 80
