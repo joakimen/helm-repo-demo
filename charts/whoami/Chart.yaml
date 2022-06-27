@@ -8,7 +8,7 @@ appVersion: 1.5.0
 dependencies:
 - name: common
   repository: https://charts.bitnami.com/bitnami/
-  version: 1.7.1
+  version: 1.16.0
 description: Tiny Go webserver that prints os information and HTTP request to output
 home: https://github.com/containous/whoami
 maintainers:
@@ -18,4 +18,4 @@ name: whoami
 sources:
 - https://github.com/containous/whoami
 - https://github.com/cowboysysop/charts/tree/master/charts/whoami
-version: 2.5.6
+version: 2.5.5
